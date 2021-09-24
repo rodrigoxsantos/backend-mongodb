@@ -133,5 +133,5 @@ const app = express();
 
     res.send("Serie removida com sucesso!");
   });
-  app.listen(3000);
+  app.listen(process.env.PORT || 3000);
 })();
